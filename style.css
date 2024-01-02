@@ -1,9 +1,35 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0 !important;
     color: #333;
-  }
+}
   
-  h1 {
+.container h1 {
+    padding-top: 15px;
     color: #0066cc;
-  }
+}
+
+nav {
+  background-color: #333;
+  color: #f0f0f0;
+  height: 10vh;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li{
+  width: 8vw;
+}
+
+.principal{
+  height: 82vh;
+}
+
+footer {
+  background-color: #333;
+  color: #f0f0f0;
+  height: 8vh;
+}
